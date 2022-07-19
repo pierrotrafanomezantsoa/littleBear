@@ -1,0 +1,35 @@
+.aaa{
+  margin:20px;
+  padding:10px;
+  text-align:justify;
+  border:5px ridge grey;
+  visibility:hidden;
+  overflow:auto;
+}
+
+.aaa img {
+float:left;
+}
+
+ul div:target {
+visibility:visible;
+width:500px;height:300px;
+transition:all 0.5s ease-in;
+}
+ul div:target img {
+width:200px;height:200px;
+transition:all 0.5s ease-in;
+}
+
+ul div:not(target) {
+width:0px;height:0;
+visibility:hidden;
+transition:all 0.5s ease-in;
+}
+ul div:not(target) img {
+ width:0px;height:0;
+transition:all 0.5s ease-in;
+}
+
+
+
